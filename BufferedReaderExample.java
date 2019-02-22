@@ -11,7 +11,7 @@ public class BufferedReaderExample {
 		// TODO Auto-generated method stub
 
 		try {
-			BufferedReader br = new BufferedReader(new FileReader(new File("C:/temp/countries.txt")));
+			BufferedReader br = new BufferedReader(new FileReader(new File("D:/temp/me.txt")));
 			String line="";
 			while((line=br.readLine())!=null)
 			{
